@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100,200,300,400;0,600;0,700;1,500&display=swap');
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: rgb(199, 207, 207);
+  width:100vw;
+  height:100vh;
+  padding: 0;
+}
+
+.cardCtr{
+  max-width: 400px;
+  max-height: 600px;
+  height:480px;
+  width:320px;
+  box-shadow: 0px 2px 10px 3px rgba(0,0,0,0.4);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  background-image: url("Kanna2.jpg");
+  background-position: center;
+  background-size: cover;  
+  transition: 400ms ease-in-out;
+
+}
+
+.cardCtr:hover{
+  transition: 400ms ease-in-out;
+  background-image: url("Kanna.jpg");
+}
+
+.Content{
+  display: flex;
+  flex-grow: 1;
+  background-color: rgba(24, 43, 101, 0.215);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.263);
+  gap:15px;
+}
+
+.Title{
+  background-color: transparent;
+  font-family: Poppins, sans-serif;
+  color:white;
+  font-size: 25px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.date{
+  font-family: Poppins, sans-serif;
+  color:white;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size:17px;
+}
+
+.Nationality{
+  font-family: Poppins, sans-serif;
+  color:white;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size:17px;
+
+}
+
+.Description{
+  font-family: Poppins, sans-serif;
+  color:rgba(255, 255, 255, 0.696);
+  font-size: 14px;
+  text-align: justify;
+  display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+
+}
+
+.detail{
+  font-family: Poppins, sans-serif;
+  color:rgb(192, 192, 192);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  transition: 300ms;
+  margin-bottom: -10px;
+  letter-spacing: 2px;
+  gap:10px;
+}
+
+.detail:hover{
+  transition: 300ms;
+  color:rgb(255, 255, 255);
+}
+
+.arrow{
+  margin-top: -13px;
+  font-size: 15px;
+}
+
+.Information{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  
+}
+
+.Information section{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.top{
+  padding: 20px;
+}
+
+.top button{
+  background-color: transparent;
+  color: white;
+  padding:0px 12px;
+  font-family:Poppins,sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  gap:8px;
+  align-items: center;
+  border:solid 2px white;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+  transition: 180ms ease-in-out;
+
+}
+
+.heart{
+  font-size: 25px;
+}
+
+.top button:hover{
+  border:solid 2px rgb(255, 99, 161);
+  color: rgb(255, 99, 161);
+  transition: 180ms ease-in-out;
+  scale:105%;
+}
